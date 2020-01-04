@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Box Model</title>
+        <style>
+            * {
+                box-sizing: border-box;
+
+            }
+            body{
+                margin:0px; 
+                padding:0px; 
+
+            }
+            #outerbox{
+                padding: 5px 5px 5px 5px; /*top right bottom left*/
+                border: 10px solid black;
+                margin: 30px;
+                width: 500px; /*width of the content box*/
+                box-sizing: border-box; /*vs content-box , recommend to use border-box, this box-sizing should be applied to all the elements - move to body? let's try*/ 
+            }
+            #innerbox{
+                background: #ff0000;
+            }           
+            h1 {
+                
+            } 
+            p {
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>Just some dummy text</h1>
+
+        <p>You can generate Lorem ipsum dummy text <a href="https://www.lipsum.com/" target="_blank">here!</a></p>
+
+        <div  id ="outerbox" style="background:green;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum sapien ac dui lacinia efficitur. 
+            Cras sodales a quam quis imperdiet. Ut dignissim nisl molestie, dapibus nibh sit amet, euismod mi. Curabitur pulvinar est velit. 
+            Mauris quis lacus lectus. Integer consectetur nunc at justo malesuada gravida. 
+            Aenean vel cursus lorem. Morbi sit amet blandit purus, vel consectetur nunc. 
+            Phasellus ut felis ac massa gravida cursus sit amet at dolor. In nec rhoncus enim. 
+            Nunc sollicitudin justo ac est blandit, at ultrices libero molestie. Sed et sapien nulla. 
+            Nullam convallis id sem in hendrerit. Praesent sit amet sapien fringilla, cursus arcu vitae, sagittis diam.
+            <br>  <br>
+
+            <div id="innerbox">Nam accumsan libero at diam egestas, quis semper nulla condimentum. 
+                Morbi vitae dui ut metus tincidunt gravida consectetur at ligula. Duis ornare, metus non porta pharetra, 
+                purus ipsum tincidunt neque, id pharetra lorem nunc vel metus. Nulla aliquam ullamcorper nunc at aliquam. 
+                Suspendisse pulvinar euismod sem eu posuere. Sed feugiat turpis sed libero volutpat, et ornare ipsum condimentum. 
+                Vivamus sed odio ac tellus molestie convallis ac sit amet lorem. Curabitur pretium risus id lectus molestie elementum. 
+                Donec ac magna mollis, feugiat tellus non, consectetur orci. Sed ornare enim ligula, ut fringilla dolor pulvinar mollis.</div>
+
+        </div>   
+
+
+
+    </body>
+</html>
+
