@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.green{
+    color:green;
+}
+h1{
+    color:red;
+}
+/* div > li .black #one #two div > p {
+    color: orange;
+} */
+
+ul {
+    color: green;
+}
+/* .black {
+    color:black;
+} */
+ul li  ul  li{
+    color:black;
+}
+/* #green > ul{
+    color:green;
+} */
+
+/* ul ul {
+    color:black;
+} */
