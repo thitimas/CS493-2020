@@ -1,0 +1,43 @@
+
+let empList =[
+    {
+        "fname": "Sharad",
+        "lname": "Volz"
+    },
+    {
+        "fname": "Constance",
+        "lname": "Dech"
+    },
+    {
+        "fname": "Myra",
+        "lname": "Comeau"
+    },
+    {
+        "fname": "Noriess",
+        "lname": "Dabbs"
+    },
+    {
+        "fname": "Esperanza",
+        "lname": "Shrestha"
+    },
+    {
+        "fname": "Eugene",
+        "lname": "Barron"
+    },
+    {
+        "fname": "Petr",
+        "lname": "Ravenelle"
+    },
+    {
+        "fname": "Cristina",
+        "lname": "Terry"
+    },
+    {
+        "fname": "Victoria",
+        "lname": "Aresti"
+    },
+    {
+        "fname": "Byron",
+        "lname": "Yarber"
+    }
+];
